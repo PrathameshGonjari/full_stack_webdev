@@ -1,0 +1,26 @@
+body{
+  background:ivory;
+}
+.header{
+  font-style: bold;
+  color:salmon;
+  text-align: center;
+  font-size: 50px;
+  padding:50px;
+  border:4px red dotted;
+  margin:20px;
+}
+.border{
+  color:gainsboro;
+  border-style: none;
+  border-top-style: dotted;
+  width: 50%;
+  border-width:30px;
+}
+.Para{
+  color:gold;
+  font-size:20px;
+  padding:30px;
+  margin:20px;
+  border: red dashed 2px;
+}
