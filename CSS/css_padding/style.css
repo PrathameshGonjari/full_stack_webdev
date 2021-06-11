@@ -1,0 +1,21 @@
+
+body{
+  background-color:cadetblue;
+}
+.Heading{
+  color:rgb(236, 152, 91);
+  font-style: bold;
+  font-size:50px;
+  text-align: center;
+  padding:100px;
+  margin:20px;
+  border:1px solid orange;
+}
+.Para{
+  font-size:20px;
+  color:red;
+  padding-left: 50px;
+  margin-top: 50px;
+  border:red 1px solid;
+}
+
