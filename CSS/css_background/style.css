@@ -1,0 +1,32 @@
+.header{
+  font-size: 50px;
+  color:brown;
+  font-style: auto;
+  text-align: center;
+  background-color:silver;
+  padding:50px;
+}
+.border{
+  color: wheat;
+  border-style: none;
+  border-top-style: dotted;
+  width: 50%;
+  border-width: 20px;
+
+}
+.header1{
+  color:royalblue;
+  font-style:bold;
+  font-size:30px;
+  text-align:center;
+  background-color:skyblue;
+}
+.para{
+  color:red;
+  font-size: 20px;
+  text-align: center;
+  font-style: initial;
+  background-color:thistle;
+  padding:20px;
+
+}
