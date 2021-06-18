@@ -1,0 +1,29 @@
+body{
+  background-color:#9C9C1C;
+}
+.header1{
+  text-align:center;
+  color:#111103;
+  text-transform:uppercase;
+  padding:20px;
+  margin:20px;
+  background-color:#F3F3BA;
+}
+.border{
+  border-width:5px;
+  border-style: none;
+  border-top-style:double;
+  color:black;
+  margin:5px;
+}
+.header4{
+  text-align: center;
+  font-size:30px;
+  padding:20px;
+  margin:20px;
+  background-color:#EDED97;
+}
+.link{
+  text-decoration: none;
+  font-size:20px;
+}
