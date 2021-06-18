@@ -1,0 +1,29 @@
+body{
+  background-color:cornsilk ;
+}
+.header{
+  color:darkblue;
+  font-size:50px;
+  text-align:center;
+  text-transform: uppercase;
+  margin:20px;
+  padding:20px;
+}
+.border{
+  color:rgb(46, 46, 48);
+  border-style:none;
+  border-top-style:double;
+  border-width:10px;
+}
+.Para{
+  color:rgb(47, 47, 51);
+  text-align: left;
+  font-size:20px;
+  margin-left:20px;
+  text-decoration:none;
+  text-transform: capitalize;
+}
+a{
+  text-decoration: none;
+  text-transform: lowercase;
+}
