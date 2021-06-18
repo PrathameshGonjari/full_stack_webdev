@@ -37,3 +37,9 @@ table{
 td{
   padding:30px;
 }
+a:hover{
+  color:blue;
+}
+a:visited{
+  color:rgb(172, 44, 44);
+}
