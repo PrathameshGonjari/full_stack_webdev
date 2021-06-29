@@ -1,0 +1,11 @@
+body{
+  background-color:azure;
+}
+h1{
+  color:red;
+  font-size: 100px;
+  text-align:center;
+  padding:20px;
+  margin:20px;
+  border: solid black 10px;
+}
