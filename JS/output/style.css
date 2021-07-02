@@ -1,0 +1,15 @@
+h1{
+  text-decoration: bold;
+  text-align: center;
+  font-size: 60px;
+  color: #a03030;
+}
+body {
+  background-color:antiquewhite;
+}
+p{
+  text-align: justify;
+  font-size:20px;
+  color:brown;
+  margin:20px;
+}
