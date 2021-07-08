@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burger King - Food Website Website Templete</title>
+  <style>
+    *{
+      margin:0px;
+      padding:0px;
+    }
+    .navbar nav{
+      height:75px;
+      width:100%;
+      background:inherit;
+      position:fixed;
+      top:0px;
+      left:0px;
+      z-index: 999;
+      text-align:center;
+    }
+    .navbar nav ul{
+      height:100%;
+      list-style: none;
+      transition: all 0.5s ease;
+      float:right;
+      padding-top: 15px;
+      margin-right: 50px;;
+    } 
+    .navbar nav ul li{
+      float:left;
+      text-align:center;
+      color:red;
+      padding: 10px 10px;
+      font-size:20px;
+      text-transform: uppercase;
+      font-weight: bold;
+      cursor: pointer;
+      position: relative;
+    }
+    .navbar .header{
+      background-image: url(img/carousel-3.jpg);
+      background-size: cover;
+      min-height: 650px;
+    }
+    .navbar nav ul li:hover{
+      color:blue;
+    }
+    .navbar nav ul li .sub-nav{
+      position:absolute;
+      background-color: aliceblue;
+      width:150px;
+      height:110px;
+      box-shadow: 1px 1px 2px rgba(0,0,0,0.14), -1px 0px 1px rgba(0,0,0,0.14);
+      top: 75px;
+      left:0;
+      opacity:0;
+      visibility: hidden;
+    }
+    .navbar nav ul li .sub-nav li{
+      font-size:15px; 
+      padding:15px;
+    }
+    .navbar nav ul li .sub-nav li:hover{
+      color:aquamarine;
+      box-shadow: 0 0;
+    }
+    .navbar nav ul li:hover ul.sub-nav{
+      opacity:1;
+      visibility: visible;
+    }
+
+  </style>
+
+</head>
+<body>
+  <div class="navbar">
+    <nav>
+      <a class="logo" href="#">Burger <spam class="spam1">King</spam></a>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Feature</li>
+          <li>Chef</li>
+          <li>Menu</li>
+          <li>Booking</li>
+          <li>Pages
+            <ul class="sub-nav">
+              <li>Blog Grid</li>
+              <li>Blog Detail</li>
+            </ul>
+          </li>  
+          <li>Contact</li>
+        </ul>
+    </nav>        
+    <div class="header"></div>
+  </div>
+</body>
+</html>
