@@ -904,6 +904,14 @@ input::placeholder{
   vertical-align: middle;
   margin-left: 25px;
 }
+#blogimghow:hover{
+  transform: scale(1.1);
+  transform: all 0.3s ease-in-out;
+}
+#blogtexthov:hover{
+  color:#0a369d;
+  transition: all 0.3s ease;
+}
 .blogtext{
   color:#333;
   font-size:24px;
