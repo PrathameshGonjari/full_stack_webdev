@@ -6,10 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JS Operator - Example 1</title>
 </head>
+<style>
+  h1{
+    text-align: center;
+    color:rgb(61, 47, 47);
+    font-size: 50px;
+  }
+</style>
 <body>
   
 </body>
 <script>
+  document.write("<h1>Java Script Operator</h1>")
   //variable declaration
   var a=10;
   console.log(a);
@@ -20,16 +28,48 @@
   console.log(c);
 
   //mul opearator
-  a=10;
-  b=5;
-  mul=a*b;
+  var a=10;
+  var b=5;
+  var mul=a*b;
   console.log(mul);
 
   //exponential opearator
-  a=5;
-  a=5;
-  expo=a**b;
+  var a=3;
+  var b=3;
+  var expo=a**b;
   console.log(expo);
+
+  //division operator
+  var a=50;
+  var b=10;
+  var div=a/b;
+  console.log(div);
+
+  //modulus operator
+  var a=10;
+  var b=3;
+  var mod=a%b;
+  console.log(mod);
+
+  //increment operator
+  var a=20;
+  a++;
+  console.log(a);
+  a = a + 10;
+  console.log(a);
+
+  //decrement operator
+  var a=30;
+  a--;
+  console.log(a);
+  a = a - 5;
+  console.log(a);
+
+  //greater than operator
+  var a=10;
+  var b=20;
+  console.log(a>b); 
+  console.log(a<b);
 
 </script>
 </html>
