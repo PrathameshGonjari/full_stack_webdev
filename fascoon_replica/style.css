@@ -715,7 +715,7 @@ input::placeholder{
   width: 20%;
   text-transform: uppercase;
   font-family: sans-serif;
-  margin: 0px 210px -10px 210px;
+  margin: 0px 210px 0px 210px;
 }
 .leftline1{
   color:#fff;
@@ -737,6 +737,7 @@ input::placeholder{
   border-bottom: 1px solid #cecece;
   font-family: sans-serif;
   width:95%;
+  margin-top: -20px;
 }
 .leftreg{
   margin-left: 15px;
