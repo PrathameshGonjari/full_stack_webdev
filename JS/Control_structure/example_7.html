@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Control Structure - Example 7</title>
+</head>
+<body>
+    <h1 style="text-align: center;">For Each</h1>
+    <br>
+    <h2>Example 1</h2>
+    <div id="demo">
+
+    </div>
+    <h2>Example 2</h2>
+    <div id="demo1">
+
+    </div>
+</body>
+<script>
+    var cars = ["Audi", "Bmw", "VW", "Skoda"];
+    cars.forEach(myfunction);
+    function myfunction(item,index){
+        document.getElementById("demo").innerHTML += item + "<br>";
+    }
+    
+    var fruit=["Apple","Cherry","Mango"];
+    fruit.forEach(function(item,index){
+        document.getElementById("demo1").innerHTML += item + "<br>";
+    })
+</script>
+</html>
