@@ -15,5 +15,5 @@ var employees = [
 
 employees.forEach(function(employee){
   console.log(employee.firstname+ " " +employee.lastname+ " is Employee Full Name");
-  console.log(employee.salary+ " is Employee Salary and " +employee.designation+ " is employee designation");
+  console.log(employee.firstname+ " is a " +employee.designation+ " and " +employee.salary+ " is Employee Salary");
 })
