@@ -10,7 +10,7 @@ var promise = new Promise(function(resolve,reject){
   }
 })
 promise.then(function(){
-  console.log("Country is India");
+  console.log("Country name is India");
 }).catch(function(){
   console.log("Error is Terminal");
 })
