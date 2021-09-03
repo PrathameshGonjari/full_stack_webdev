@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adavance JS - Local Storage</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">Local Storage</h1>
+  </body>
+  <script>
+    let firstname;
+    let lastname;
+    localStorage.setItem("firstname", "Ramesh");
+    localStorage.setItem("lastname", "Yadav");
+    firstname = localStorage.getItem("firstname");
+    lastname = localStorage.getItem("lastname");
+    document.write(firstname + "<br/>");
+    document.write(lastname + "<br/>");
+  </script>
+</html>
