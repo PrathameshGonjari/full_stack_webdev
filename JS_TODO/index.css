@@ -9,8 +9,17 @@ body {
   background-size: cover;
 }
 
+body .heading {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: #FFF;
+  padding: 10px;
+  border-bottom: dotted 2px white;
+}
+
 body .input_container {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 10%;
   width: 50%;
   -webkit-box-pack: center;
@@ -65,10 +74,10 @@ body .data_container .item {
 }
 
 body .data_container .item .item_input {
-  font-size: 25px;
   width: 100%;
   padding: 10px;
   margin: 10px;
+  font-size: 25px;
   border: none;
   border-radius: 10px;
 }
