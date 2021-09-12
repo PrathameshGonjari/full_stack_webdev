@@ -24,13 +24,18 @@ body .column {
   display: flex;
 }
 
-body .column button {
+body .column a {
+  text-decoration: none;
+  color: inherit;
+  margin: 8% 3% auto 3%;
+}
+
+body .column a button {
   display: block;
   position: relative;
   margin: 0.5em 0;
   padding: .8em 2.2em;
   cursor: pointer;
-  margin: 8% 3% auto 3%;
   background: #FFFFFF;
   border: none;
   border-radius: .4em;
@@ -46,7 +51,7 @@ body .column button {
           transform-style: preserve-3d;
 }
 
-body .column button:before, body .column button:after {
+body .column a button:before, body .column a button:after {
   --z: 0px;
   position: absolute;
   top: 0;
@@ -64,40 +69,35 @@ body .column button:before, body .column button:after {
           transform: translate3d(calc(var(--z) * 0px), calc(var(--z) * 0px), calc(var(--z) * 0px));
 }
 
-body .column button span {
+body .column a button span {
   mix-blend-mode: none;
   display: block;
 }
 
-body .column button:after {
+body .column a button:after {
   background-color: #5D00FF;
 }
 
-body .column button:before {
+body .column a button:before {
   background-color: #FF1731;
 }
 
-body .column button:hover {
+body .column a button:hover {
   background-color: #FFF65B;
   -webkit-transition: background .3s 0.1s;
   transition: background .3s 0.1s;
 }
 
-body .column button:hover:before {
+body .column a button:hover:before {
   --z: 0.04;
   -webkit-animation: translateWobble 2.2s ease forwards;
           animation: translateWobble 2.2s ease forwards;
 }
 
-body .column button:hover:after {
+body .column a button:hover:after {
   --z: -0.06;
   -webkit-animation: translateWobble 2.2s ease forwards;
           animation: translateWobble 2.2s ease forwards;
-}
-
-body .column button a {
-  text-decoration: none;
-  color: inherit;
 }
 
 @-webkit-keyframes translateWobble {
