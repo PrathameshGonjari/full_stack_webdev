@@ -1,0 +1,48 @@
+.input{
+  width: 100%;
+  border: 2px solid #2c3e50;
+  border-radius: 5px;
+  padding: 10px 50px;
+  margin: 10px;
+
+}
+.Submit{
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  border: 2px solid #2c3e50;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+  
+}
+.SubmitContainer{
+  align-content: center;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  margin: 10px 45px; 
+}
+.result1{
+  align-content: center;
+  margin: 10px;
+  padding: 10px;
+
+}
+.result2{
+  align-content: center;
+  margin:10px;
+  padding: 10px;
+}
+
+.ResultContainer{
+  margin: 25px 10px 10px 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+  background-color: #3498db ;
+  padding: 10px 50px;
+  
+}

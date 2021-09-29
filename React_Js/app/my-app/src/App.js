@@ -1,12 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import AppHeader from './components/AppHeader'
-function App() {
-  return (
-    <div className="App">
-      <AppHeader/>
-    </div>
-  );
-}
+import React  from 'react'
+import Router from './Router'
 
-export default App;
+
+
+export default function App(){
+  return(
+    <Router/>
+  )
+}
