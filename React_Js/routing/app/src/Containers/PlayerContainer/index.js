@@ -1,5 +1,6 @@
 import React from "react"
 import './index.css'
+import { Link } from 'react-router-dom'
 export default function PlayerContainer(props){
   const renderContainer = () =>{
     console.log(props)
@@ -7,6 +8,7 @@ export default function PlayerContainer(props){
   return(  
     <div className='PlayerContainer'>
       <h1>Player Details</h1>
+      <h5><Link to='/players'> Back </Link></h5>
       <ul>
         {renderContainer()}
       </ul>  
