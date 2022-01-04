@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.input_date {
+  padding: .8rem;
+  border-radius: .5rem;
+}
+
+.input_text {
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.add_button {
+  padding: .9rem;
+  text-transform: uppercase;
+  padding: .9rem;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  border: 0.2rem solid #008CBA;
+}
+
+.add_button:hover {
+  background-color: #008CBA;
+  color: white;
+  cursor: pointer;
+}
+
+h1 {
+  margin: 2rem;
+  font-size: 5rem;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding: 0rem 40rem;
+}
+
+.btn_save {
+  padding: .9rem;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  border: 0.2rem solid #008CBA;
+  border-radius: 1rem;
+}
+
+.btn_save:hover {
+  background-color: #008CBA;
+  color: white;
+  cursor: pointer;
+}
+
+.rem_btn {
+  padding: .9rem;
+  text-transform: uppercase;
+  padding: .9rem;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  border: 0.2rem solid #008CBA;
+  position: absolute;
+  width: auto;
+  left: 110rem;
+  margin-top: -6.5rem;
+  border-radius: 1rem;
+}
+
+.rem_btn:hover {
+  background-color: #008CBA;
+  color: white;
+  cursor: pointer;
+}
+
+.first_section {
+  margin: 2rem;
+}
+
+.left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.container {
+  margin: 5rem;
+}
+
+.right {
+  position: absolute;
+  width: auto;
+  left: 75rem;
+  top: 15rem;
+}
+
+h4 {
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+.third_section {
+  padding: 2rem;
+  margin: 2rem;
+  background-color: white;
+  color: black;
+  border: 0.2rem solid #f44336;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.second_section {
+  margin: 2rem;
+}
+
+.btn_edit {
+  padding: .9rem;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  border: 0.2rem solid #4CAF50;
+  border-radius: 1rem;
+}
+
+.btn_edit:hover {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.btn_delete {
+  padding: .9rem;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  border: 0.2rem solid #f44336;
+  border-radius: 1rem;
+}
+
+.btn_delete:hover {
+  background-color: #f44336;
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */

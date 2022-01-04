@@ -1,0 +1,25 @@
+*{
+  padding:0px;
+  margin: 0px;
+}
+.navigation{
+  background-color:bisque;
+  width: 100%;
+  padding:10px;
+  text-align: center;
+}
+.navigation ul{
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.navigation li{
+  display: inline-block;
+  text-decoration: none;  
+  margin: 10px;
+  padding: 10px;
+}
+.link{
+  text-decoration: none;
+  color:black;
+  font-size:large;
+}

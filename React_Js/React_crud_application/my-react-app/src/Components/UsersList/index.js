@@ -1,5 +1,6 @@
 import React,{ Component } from 'react'
 import axios from 'axios'
+import "./index.css"
 import { Link } from 'react-router-dom';
 export default class UserList extends Component{
 
@@ -28,6 +29,9 @@ export default class UserList extends Component{
     axios.delete(`http://localhost:3004/users/`+id)
     .then(res =>{
       console.log(res.data);
+      setTimeout(()=>{
+        window.location.reload('/')
+      },500)
     })
   }
 
@@ -35,13 +39,13 @@ export default class UserList extends Component{
     
     return(
 
-      <div>
+      <div className="userlist">
         <h1>List of Users</h1>
       {
         this.state.users.map((user) => (
-          <div>
+          <div className="item">
             <li id={user.id}>{user.name}</li>
-            <Link to={`/edituser/`+user.id+`/`+
+            <Link className="link" to={`/edituser/`+user.id+`/`+
           user.name}>EDIT</Link>
           <button id={user.id} onClick={this.deleteUser}>DELETE</button>
           </div>

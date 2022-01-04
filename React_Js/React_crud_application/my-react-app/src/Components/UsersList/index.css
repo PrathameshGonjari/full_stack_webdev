@@ -1,0 +1,37 @@
+.userlist{
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+.userlist h1{
+  margin: 10px;
+  padding: 10px;
+  font-size: 40px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  background-color:cornsilk;
+}
+.userlist .item{
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  text-decoration: none;
+}
+.userlist .item li,button{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.link{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.userlist .item button:hover{
+  background-color:khaki ;
+}
+.link:hover{
+  background-color: lightblue;
+}

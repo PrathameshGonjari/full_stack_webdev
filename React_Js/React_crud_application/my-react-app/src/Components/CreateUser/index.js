@@ -1,5 +1,6 @@
 import React,{ Component } from 'react'
 import axios from 'axios'
+import "./index.css"
 
 export default class CreateUser extends Component{
   state = {
@@ -17,22 +18,20 @@ export default class CreateUser extends Component{
     axios.post('http://localhost:3004/users/',{name})
     .then(res=>{
       console.log(res.data);
+      setTimeout(()=>{
+        window.location.replace('/');
+      },500)
     })
   }
   render(){
 
     return(
-      <div>
-        <input name='user' onChange={this.handleInputChange} type='text' placeholder='Enter UserName'/>
+      <div className="createuser">
+        <input name='user' onChange={this.handleInputChange} type='text' placeholder='Enter User Name'/>
         <button onClick={this.saveUser}>Submit</button> 
         
       </div>
     )
 
   }
-
-
-
-
-
 }

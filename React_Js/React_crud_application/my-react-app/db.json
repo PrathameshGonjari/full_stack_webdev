@@ -1,10 +1,6 @@
 {
   "users": [
     {
-      "id": 2,
-      "name": "Ramesh New"
-    },
-    {
       "id": 3,
       "name": "Aniket G"
     },
@@ -15,6 +11,10 @@
     {
       "name": "Ramesh k",
       "id": 6
+    },
+    {
+      "name": "karan k",
+      "id": 7
     }
   ]
 }

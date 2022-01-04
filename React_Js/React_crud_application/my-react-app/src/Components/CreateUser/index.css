@@ -1,0 +1,19 @@
+.createuser{
+  text-align: center;
+  margin: 10px;
+  padding:10px;
+}
+.createuser input{
+  padding: 10px;
+  width: 40%;
+  border-radius: 10px;
+}
+.createuser button{
+  padding: 10px;
+  margin:10px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+.createuser button:hover{
+  background-color:lightgoldenrodyellow;
+}

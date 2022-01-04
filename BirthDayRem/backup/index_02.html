@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Reminder</title>
+    <link rel="stylesheet" href="SASS/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">Add Reminder</h1>
+      <div class="left">
+        <div class="first_section">
+          <input
+            id="input_one"
+            class="input_text"
+            type="text"
+            placeholder="Enter Reminder"
+          />
+          <input id="input_second" class="input_date" type="date" />
+          <button id="add_btn" class="add_button">Add</button>
+        </div>
+        <div class="second_section">
+          <!-- <input class="input_text" type="text" disabled />
+          <input class="input_date" type="date" disabled />
+          <button class="btn_edit">Edit</button>
+          <button class="btn_delete">Delete</button> -->
+        </div>
+      </div>
+      <div class="right">
+        <h4>Reminder will be displayed here</h4>
+        <div class="third_section">
+          <h3>Reminder of</h3>
+          <input class="input_text_a" type="text" disabled />
+          <input class="input_date_b" type="text" disabled />
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
